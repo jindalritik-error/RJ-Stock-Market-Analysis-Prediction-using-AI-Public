@@ -93,6 +93,10 @@ Actual model results will be added after final validation.
 
 [Open RJ Stock Market Analysis & Prediction](https://rj-stock-market-analysis-prediction.onrender.com/)
 
+## 📸 Project Screenshots
+
+<img width="1916" height="918" alt="image" src="https://github.com/user-attachments/assets/2ebb378b-988f-42d8-aa4e-31e5fb967080" />
+
 ## 📁 Project Structure
 
 ```text
