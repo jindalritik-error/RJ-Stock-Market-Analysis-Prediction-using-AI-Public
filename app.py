@@ -1,3 +1,4 @@
+
 # --------------------------------
 # INTRADAY LIVE DATA
 # --------------------------------
@@ -56,21 +57,9 @@ def show_live_market(stock, company):
 
     c1, c2, c3 = st.columns(3)
 
-    c1.metric(
-        "Latest 5-Minute Price",
-        f"₹{current:,.2f}",
-        f"{change:+.2f}"
-    )
-
-    c2.metric(
-        "5-Minute Change",
-        f"{change_percent:+.2f}%"
-    )
-
-    c3.metric(
-        "Latest Volume",
-        f"{int(latest['Volume']):,}"
-    )
+    c1.metric("Latest 5-Minute Price", f"₹{current:,.2f}", f"{change:+.2f}")
+    c2.metric("5-Minute Change", f"{change_percent:+.2f}%")
+    c3.metric("Latest Volume", f"{int(latest['Volume']):,}")
 
     time_column = (
         "Datetime" if "Datetime" in live_data.columns
@@ -99,10 +88,7 @@ def show_live_market(stock, company):
         hovermode="x unified"
     )
 
-    st.plotly_chart(
-        live_fig,
-        use_container_width=True
-    )
+    st.plotly_chart(live_fig, use_container_width=True)
 
     st.caption(
         "Refreshes every 5 minutes while this app session is active. "
