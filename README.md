@@ -136,6 +136,36 @@ This project is developed for educational and learning purposes only. Stock pric
 
 Intraday data availability and update frequency depend on Yahoo Finance. The dashboard does not guarantee real-time exchange data.
 
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/jindalritik-error/RJ-Stock-Market-Analysis-Prediction-using-AI-Public.git
+```
+
+### 2. Open Project Folder
+
+```bash
+cd RJ-Stock-Market-Analysis-Prediction-using-AI-Public
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+The dashboard will open in your browser.
+
 ## 👨‍💻 Author
 
 **Ritik Jindal**
